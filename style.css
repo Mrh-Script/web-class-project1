@@ -1,0 +1,108 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #e6eef8;
+  background-image: url("bc.jpg");
+  background-size: cover;
+}
+
+.card {
+  background-color: #0b1220;
+  max-width: 700px;
+  width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7);
+}
+
+.photo {
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid #1e293b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 15px;
+  background-color: #111827;
+  padding: 10% 0;
+}
+
+.photo img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 2px solid #1e293b;
+}
+
+.buttons {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 14px;
+  background-color: #06b6d4;
+  color: #042027;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: orangered;
+  transform: scale(1.05);
+}
+
+.contact {
+  background-color: #25D366;
+  color: #ffffff;
+}
+
+.contact:hover {
+  background-color: orangered;
+}
+
+.info {
+  flex: 1;
+  color: #d8e8f5;
+}
+
+h1 {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+h3 {
+  color: #94a3b8;
+  font-size: 16px;
+  margin: 6px 0 16px 0;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 15px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
